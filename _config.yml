@@ -24,9 +24,12 @@ github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 
 google_analytics: 
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
+
 domain: n-isoge.github.io
 url: https://n-isoge.github.io
 baseurl: /small_recipe_book/
+#url setting
+
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
