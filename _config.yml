@@ -27,7 +27,6 @@ google_analytics:
 
 website: https://n-isoge.github.io
 basewebsite: /small_recipe_book
-permalink: date
 # domain: n-isoge.github.io
 # url: https://n-isoge.github.io
 # baseurl: /small_recipe_book
