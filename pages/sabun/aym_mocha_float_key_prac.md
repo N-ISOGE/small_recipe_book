@@ -8,6 +8,6 @@ folder: sabun
 permalink: aym_mocha_float_key_prac.html
 ---
 
-# wow???
+# wow????
 
 [icon]({% link sabun/[aym]_mocha_float_key_prac.zip %})
