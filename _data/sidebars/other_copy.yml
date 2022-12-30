@@ -1,0 +1,28 @@
+
+# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
+
+entries:
+- title: test
+  folders:
+
+  - title: test google
+    out: web
+    folderitems:
+
+    - title: Automated links bookmark
+      url: /mydoc_hyperlinks.html#automatedlinks
+      out: web
+
+    - title: Bookmark links
+      url: /mydoc_hyperlinks.html#bookmarklinks
+      out: web
+
+    - title: Some link bookmark
+      url: /mydoc_pages.html#someIdTag
+      out: web
+
+    - title: sabun
+      url: /aym_mocha_float_key_prac.md
+      out: web
+
+# Copyright 2021 Google LLC

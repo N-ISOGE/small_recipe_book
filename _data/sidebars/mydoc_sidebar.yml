@@ -44,6 +44,11 @@ entries:
       url: /mydoc_support.html
       output: web, pdf
 
+    - title: Support???
+      url: /aym_mocha_float_key_prac.html
+      output: web
+
+
   - title: Release Notes
     output: web, pdf
     folderitems:
@@ -252,6 +257,10 @@ entries:
     - title: Troubleshooting
       url: /mydoc_troubleshooting.html
       output: web, pdf
+    
+    - title: mocha float - aym
+      url: /aym_mocha_float_key_prac.html
+      output: web
 
   - title: Tag archives
     output: web
