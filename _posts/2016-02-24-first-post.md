@@ -15,6 +15,4 @@ Theme updates:
 - added blog feature
 - sidebars configurable per page
 
-[icon]({%baseurl%}/sabun/%5Baym%5D_mocha_float_key_prac.zip)
-
 {% include links.html %}

@@ -10,4 +10,4 @@ permalink: aym_mocha_float_key_prac.html
 
 # wow?
 
-[icon]({% post_url /sabun/[aym]_mocha_float_key_prac %})
+[icon]({% link /sabun/[aym]_mocha_float_key_prac.zip %})
