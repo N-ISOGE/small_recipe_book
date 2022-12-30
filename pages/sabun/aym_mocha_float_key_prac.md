@@ -1,5 +1,5 @@
 ---
-title: 'mocha float - aym'
+title: mocha float - aym
 tagName: [collaboration, sabun, 24k]
 keywords: sabun, 24k
 search: include
