@@ -25,6 +25,11 @@ github_editme_path: n-isoge/small_recipe_book/blob/gh-pages
 google_analytics: 
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
+domain: n-isoge.github.io
+url: https://n-isoge.github.io
+baseurl: /small_recipe_book
+# url
+
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
@@ -115,8 +120,7 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://n-isoge.github.io
-baseurl: /small_recipe_book
+
 
 
 github: [metadata]
