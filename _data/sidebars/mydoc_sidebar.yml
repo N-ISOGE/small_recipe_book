@@ -74,8 +74,8 @@ entries:
 
   - title: Authoring
     output: web, pdf
-
     folderitems:
+
     - title: Pages
       url: /mydoc_pages.html
       output: web, pdf
@@ -110,8 +110,8 @@ entries:
 
   - title: Navigation
     output: web, pdf
-
     folderitems:
+
     - title: Sidebar navigation
       url: /mydoc_sidebar_navigation.html
       output: web, pdf
@@ -130,8 +130,8 @@ entries:
 
   - title: Formatting
     output: web, pdf
-
     folderitems:
+
     - title: Tooltips
       url: /mydoc_adding_tooltips.html
       output: web, pdf
@@ -190,8 +190,8 @@ entries:
 
   - title: Publishing
     output: web, pdf
-
     folderitems:
+
     - title: Build arguments
       url: /mydoc_build_arguments.html
       output: web, pdf
@@ -226,8 +226,8 @@ entries:
 
   - title: Special layouts
     output: web, pdf
-
     folderitems:
+
     - title: Knowledge-base layout
       url: /mydoc_kb_layout.html
       output: web, pdf
@@ -246,7 +246,6 @@ entries:
 
   - title: Troubleshooting
     output: web, pdf
-
     folderitems:
 
     - title: Troubleshooting

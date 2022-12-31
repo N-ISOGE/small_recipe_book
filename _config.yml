@@ -86,6 +86,7 @@ defaults:
       search: true
       sidebar: home_sidebar
       topnav: topnav
+
   -
     scope:
       path: ""
@@ -94,15 +95,6 @@ defaults:
       layout: "page"
       search: true
       tooltip: true
-
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "pages"
-      search: true
-      sidebar: sample_sidebar
 
   -
     scope:
