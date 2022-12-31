@@ -12,5 +12,3 @@ permalink: aym_mocha_float_key_prac.html
 
 
 [icon relative]({{ 'sabun/[aym]_mocha_float_key_prac.zip' | relative_url }})
-
-[icon tag]({% link sabun/[aym]_mocha_float_key_prac.zip %})
