@@ -1,6 +1,7 @@
 ---
 title: mocha float - aym
 tagName: [collaboration, sabun, 24k]
+last_updated: 2022. 12. 31.
 keywords: sabun, 24k
 search: include
 sidebar: sample_sidebar
