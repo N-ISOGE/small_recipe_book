@@ -28,7 +28,7 @@ google_analytics:
 
 domain: n-isoge.github.io
 url: https://n-isoge.github.io
-baseurl: /small_recipe_book/
+baseurl: /small_recipe_book
 # url
 
 host: 127.0.0.1
