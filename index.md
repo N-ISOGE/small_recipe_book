@@ -1,87 +1,53 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
+title: "github pages에 documentation theme 적용하기"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: "theme 문서를 보고 적용하는 방법 작성함"
 ---
+## 테마 빌드하기 
 
-{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+아래 과정을 따라서 테마를 빌드해봅시다.
 
-## Build the Theme
+### 1. 테마를 내려받기
 
-Follow these instructions to build the theme.
+먼저 github 저장소에서 테마를 복제하거나 내려받습니다. 이걸 받고 사용하면서 설정을 변경하기 시작하면 대부분 업데이트를 하지 않기 때문에, 테마를 복제하는 것 대신 내려받는 것이 좋죠.
 
-### 1. Download the theme
+### 2. 이전 ruby 환경 만들기
 
-First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
+ruby로 작성된 jekyll를 실행하기 위해 ruby 환경을 설정합니다
+[window용 환경](https://rubyinstaller.org/)
 
-### 2. Install Jekyll
+### 2. jekyll 설치하기
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
-
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
-
-### 3. Install Bundler
-
-In case you haven't installed Bundler, install it:
-
-```
-gem install bundler
-```
-
-You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
-
-### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
-
-Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
-
-Bundler's Gemfile specifies how project dependencies are managed. Although this project includes a Gemfile, this theme doesn't have any dependencies beyond core Jekyll. The Gemfile is used to list gems needed for publishing on Github Pages. **If you're not planning to have Github Pages build your Jekyll project, delete these two files from the theme's root directory:**
-
-* Gemfile
-* Gemfile.lock
-
-If you've never run Jekyll on your computer (you can check with `jekyll --version`), you may need to install the jekyll gem:
+정적 사이트 생성기인 jekyll를 컴퓨터에 설치해보거나 실행해본적이 없다면 jekyll를 설치합시다.
 
 ```
 gem install jekyll
 ```
 
-Now run jekyll serve (first change directories (`cd`) to where you downloaded the project):
+### 3. bundler 설치하기
+
+github pages에서 사용하기 위해 github-pages gem에 대한 의존성을 해결해주는 bundler를 설치합니다.
 
 ```
-jekyll serve
+gem install bundler
 ```
 
-### 4. Option 2: Build the Theme (*with* the github-pages gem) {#option2}
+### 4. theme 빌드하기
 
-If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)).
-
-You need Bundler to resolve these dependency conflicts. Use Bundler to install all the needed Ruby gems:
+먼저 bundler를 실행하여 Gemfile, Gemfile.lock을 읽고 의존성 해결에 필요한 gem들을 설치합니다.
 
 ```
 bundle update
 ```
 
-Then *always* use this command to build Jekyll:
+다음 bundler를 통해 jekyll를 실행하여 테마에 따른 사이트를 생성합니다. 
 
 ```
 bundle exec jekyll serve
 ```
-
-If you want to shorten this long command, you can put this code in a file such as jekyll.sh (on a Mac) and then simply type `. jekyll.sh` to build Jekyll.
-
-## Running the site in Docker
-
-You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
-```
-docker-compose build --no-cache && docker-compose up
-```
-The site should now be running at [http://localhost:4000/](http://localhost:4000/).
-
-This is perhaps the easiest way to see how your site would actually look.
 
 ## Configure the sidebar
 

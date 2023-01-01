@@ -9,16 +9,15 @@ permalink: mydoc_pages.html
 folder: mydoc
 ---
 
-
-
 ## Frontmatter
+- 머리말
 
 Make sure each page has frontmatter at the top like this:
-
+모든 page는 앞부분에 이런 머리말을 가집니다.
 
 ```yaml
 ---
-title: Alerts
+title: Alerts 
 tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: July 3, 2016
@@ -29,10 +28,13 @@ permalink: mydoc_alerts.html
 ```
 
 Frontmatter is always formatted with three hyphens at the top and bottom. Your frontmatter must have a `title` and `permalink` value. All the other values are optional.
+머리말의 시작, 끌은 하이픈 3개로 표현합니다. 머리말은 'title', 'permalink' 속성을 가지고 있어야 합니다. 다른 속성은 부가적입니다.
 
 Note that you cannot use variables in frontmatter.
+주의: 머리말에서 변수를 쓸 수 없습니다.
 
 The following table describes each of the frontmatter that you can use with this theme:
+
 
 | Frontmatter | Required? | Description |
 |-------------|-------------|-------------|
