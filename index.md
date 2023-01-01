@@ -17,6 +17,7 @@ summary: "theme 문서를 보고 적용하는 방법 작성함"
 ### 2. 이전 ruby 환경 만들기
 
 ruby로 작성된 jekyll를 실행하기 위해 ruby 환경을 설정합니다
+
 [window용 환경](https://rubyinstaller.org/)
 
 ### 2. jekyll 설치하기
