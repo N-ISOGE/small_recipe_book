@@ -1,5 +1,5 @@
 ---
-title: mocha float - aym
+title: mocha float \[key_practice\]
 tagName: [collaboration, sabun, 24k]
 last_updated: 2022. 12. 31.
 keywords: sabun, 24k
