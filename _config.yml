@@ -11,7 +11,7 @@ topnav_title: small recipe book
 site_title: recipe?
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright 2021 Google LLC
+company_name: Copyright
 # this appears in the footer
 
 github_editme_path: n-isoge/small_recipe_book/blob/gh-pages/
